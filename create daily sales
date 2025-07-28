@@ -4,3 +4,8 @@ ROUND(SUM(turnover),2) AS daily_turnover,
 COUNT(orders_id) AS nb_of_sales,
 FROM `data-analytics-bootcamp-363212.course14.gwz_sales`
 GROUP BY date_date
+<<<<<<< HEAD
+ORDER BY date_date
+=======
+ORDER BY date_date DESC
+>>>>>>> db62b32b5ae91f233b87e699b7045f9fea9d3990
